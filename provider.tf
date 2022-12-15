@@ -1,4 +1,5 @@
+# Configure the AWS Provider
 provider "aws" {
-  region = "us-west-2"
-  # profile = "jjtech"
+  region = "us-east-1"
+  profile  = "terraform-user"
 }
